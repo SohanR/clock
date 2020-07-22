@@ -55,7 +55,7 @@ html body .clock .clock-face .hand {
           transform-origin: 100%;
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
+  -webkit-transition: all 0.05s cubic-bezier(0, 1.51, 0, 1.55);
+  transition: all 0.05s cubic-bezier(0, 1.51, 0, 1.55);
 }
 /*# sourceMappingURL=style.css.map */
